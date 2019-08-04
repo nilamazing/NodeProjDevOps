@@ -1,0 +1,23 @@
+{
+  "name": "nodeprojdevops",
+  "version": "1.0.0",
+  "description": "A sample Node server to demonstrate the Jenkins DevOps Pipeline using Docker Build, Docker Hub Push and deploy to docker runtime",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nilamazing/NodeProjDevOps.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nilamazing/NodeProjDevOps/issues"
+  },
+  "homepage": "https://github.com/nilamazing/NodeProjDevOps#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
