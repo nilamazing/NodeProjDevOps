@@ -1,7 +1,7 @@
 const serverUtility = require('./serverUtil');
 serverUtility().createCustomServer(8081).then(() => {
     serverUtility().testServerResponse(8081).then((data) => {
-        console.log("Successfully got response");
+        console.log("Successfully received response");
         console.log(data);
     }, (err) => {
         console.log("Error retrieved while getting response");
