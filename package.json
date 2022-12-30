@@ -19,7 +19,7 @@
   "homepage": "https://github.com/nilamazing/NodeProjDevOps#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "mocha": "^6.2.0",
+    "mocha": "^10.2.0",
     "request": "^2.88.0"
   }
 }
